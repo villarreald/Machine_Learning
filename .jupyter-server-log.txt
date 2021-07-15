@@ -36,3 +36,236 @@ Websocket closed
 [I 13:33:00.182 NotebookApp] New terminal with automatic name: 3
 TermSocket.open: 3
 TermSocket.open: Opened 3
+[W 2021-07-15 15:29:19.071 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-15 15:29:19.071 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-15 15:29:19.071 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-15 15:29:19.071 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-15 15:29:19.079 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-15 15:29:19.079 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:29:19.095 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 15:29:19.097 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 15:29:19.098 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:29:19.099 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 15:29:19.099 NotebookApp] http://jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp:8888/user/villarreald-linear_model_app-xzcvl1fp/?token=...
+[I 15:29:19.099 NotebookApp]  or http://127.0.0.1:8888/user/villarreald-linear_model_app-xzcvl1fp/?token=...
+[I 15:29:19.099 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:29:19.103 NotebookApp] No web browser found: could not locate runnable browser.
+[I 15:29:20.699 NotebookApp] 302 GET /user/villarreald-linear_model_app-xzcvl1fp/ (10.0.0.17) 0.740000ms
+[I 15:29:30.794 NotebookApp] 302 GET /user/villarreald-linear_model_app-xzcvl1fp/?token=5xdqNgNESC2FFdr28kKBiA (76.232.32.7) 0.860000ms
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 15:31:31.034 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:31:31.038 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:33:31.221 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:33:31.224 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:36:28.108 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:36:28.112 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:39:19.957 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:39:19.961 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:41:11.976 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:41:11.979 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:42:35.831 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:42:35.835 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:46:07.326 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:46:07.329 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:46:33.902 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:46:33.905 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:48:28.881 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:48:28.885 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:49:41.875 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:49:41.879 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:50:07.503 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:50:07.511 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:51:41.187 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 15:51:41.190 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:09:54.571 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:09:54.575 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:10:38.916 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:10:38.920 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:11:47.473 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:11:47.476 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:11:53.898 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:11:53.902 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:12:52.600 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:12:52.604 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:18:49.625 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:18:49.629 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:18:51.566 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:18:51.570 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:19:19.043 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:19:19.062 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:22:09.181 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:22:09.185 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:24:34.574 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:24:34.578 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:25:15.628 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:25:15.632 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:28:27.351 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:28:27.354 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:29:14.942 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:29:14.945 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[E 16:29:53.882 NotebookApp] {
+      "Cookie": "port-token=8f06fdf2968a; username-hub-gke2-mybinder-org=\"2|1:0|10:1626362970|30:username-hub-gke2-mybinder-org|44:N2FkMjUwYTg0ZmEzNGQ3YWIxODBlZWNmNzcwYjU5MmQ=|2bd26abe91eb90c3ab2a173b9e6d82046db4e25d1caabfaf47e7fee5d620cb86\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "If-None-Match": "W/\"1218b645eb13cd6125adb90d335aeb672f223757\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "76.232.32.7,::ffff:10.0.4.4",
+      "X-Real-Ip": "76.232.32.7",
+      "X-Request-Id": "3031dbe6ff3169507dcd8d39d34e8c20",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:29:53.882 NotebookApp] 500 GET /user/villarreald-linear_model_app-xzcvl1fp/rstudio/p/8092eef6/ (76.232.32.7) 21.830000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/
+[I 16:30:09.344 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:30:09.348 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:30:32.859 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:30:32.862 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:32:24.607 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:32:24.612 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:33:31.981 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:33:31.985 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:34:03.616 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:34:03.620 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:34:50.389 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:34:50.393 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:35:41.041 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:35:41.045 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:37:27.383 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:37:27.386 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:38:27.470 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:38:27.473 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:39:16.611 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:39:16.615 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:41:13.977 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:41:13.981 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[E 16:41:53.413 NotebookApp] {
+      "Cookie": "port-token=8f06fdf2968a; username-hub-gke2-mybinder-org=\"2|1:0|10:1626362970|30:username-hub-gke2-mybinder-org|44:N2FkMjUwYTg0ZmEzNGQ3YWIxODBlZWNmNzcwYjU5MmQ=|2bd26abe91eb90c3ab2a173b9e6d82046db4e25d1caabfaf47e7fee5d620cb86\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "If-None-Match": "W/\"dba7b840ddde0485c7bcf01d1218da58e4334cd2\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "76.232.32.7,::ffff:10.0.4.4",
+      "X-Real-Ip": "76.232.32.7",
+      "X-Request-Id": "61dd9a175fc3e27b9eec02de53011642",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:41:53.413 NotebookApp] 500 GET /user/villarreald-linear_model_app-xzcvl1fp/rstudio/p/8092eef6/ (76.232.32.7) 26.260000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/
+[E 16:42:06.470 NotebookApp] {
+      "Cookie": "port-token=8f06fdf2968a; username-hub-gke2-mybinder-org=\"2|1:0|10:1626362970|30:username-hub-gke2-mybinder-org|44:N2FkMjUwYTg0ZmEzNGQ3YWIxODBlZWNmNzcwYjU5MmQ=|2bd26abe91eb90c3ab2a173b9e6d82046db4e25d1caabfaf47e7fee5d620cb86\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "76.232.32.7,::ffff:10.0.4.4",
+      "X-Real-Ip": "76.232.32.7",
+      "X-Request-Id": "8c27a08a17acfd83d13c2c7e04b88964",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:42:06.470 NotebookApp] 500 GET /user/villarreald-linear_model_app-xzcvl1fp/rstudio/p/8092eef6/ (76.232.32.7) 21.890000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/
+[I 16:42:32.690 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:42:32.693 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:43:05.394 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:43:05.402 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:44:05.091 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:44:05.095 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:46:18.771 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:46:18.774 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:46:56.842 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:46:56.845 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:48:08.978 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:48:08.981 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:48:50.870 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:48:50.873 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:50:18.799 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:50:18.802 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:50:48.098 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:50:48.101 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:52:16.084 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:52:16.087 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:52:36.720 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:52:36.723 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:53:30.830 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:53:30.833 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:54:48.825 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:54:48.829 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[E 16:55:30.845 NotebookApp] {
+      "Cookie": "port-token=8f06fdf2968a; username-hub-gke2-mybinder-org=\"2|1:0|10:1626362970|30:username-hub-gke2-mybinder-org|44:N2FkMjUwYTg0ZmEzNGQ3YWIxODBlZWNmNzcwYjU5MmQ=|2bd26abe91eb90c3ab2a173b9e6d82046db4e25d1caabfaf47e7fee5d620cb86\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "If-None-Match": "W/\"ce6257f473ae004005ea96ef196463bf50f1c1f9\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "76.232.32.7,::ffff:10.0.4.4",
+      "X-Real-Ip": "76.232.32.7",
+      "X-Request-Id": "5371e2bac732b8614acd4e9eeff254bc",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:55:30.845 NotebookApp] 500 GET /user/villarreald-linear_model_app-xzcvl1fp/rstudio/p/8092eef6/ (76.232.32.7) 25.610000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-xzcvl1fp/rstudio/
+[I 16:56:16.711 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:56:16.714 NotebookApp] Websocket connection established to ws://localhost:45889/p/8092eef6/websocket/
+[I 16:57:19.505 NotebookApp] Trying to establish websocket connection to ws://localhost:45889/p/b2fbce5a/terminal/347B7080/
+[I 16:57:19.518 NotebookApp] Websocket connection established to ws://localhost:45889/p/b2fbce5a/terminal/347B7080/
+[I 16:58:22.576 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1

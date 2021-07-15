@@ -1,1 +1,1 @@
-[]
+[{"allow_restart":true,"alt_buffer":false,"autoclose":0,"buffered_output":"","caption":"Terminal 1","channel_id":"3024","channel_mode":1,"child_procs":false,"cols":80,"cwd":"~/AppTrial2","exit_code":null,"handle":"347B7080","interaction_mode":2,"max_output_lines":1000,"restarted":false,"rows":18,"shell_type":7,"show_on_output":false,"terminal_sequence":1,"title":"jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2","track_env":true,"zombie":false}]

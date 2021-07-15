@@ -44,21 +44,31 @@ ui <- fluidPage(
             radioButtons("disp", "Display",
                          choices = c(Head = "head",
                                      All = "all"),
-                         selected = "head")
+                         selected = "head"),
+            actionButton("go", "Go"),
             
         ),
         
 
         # Show a plot of the generated distribution
         mainPanel(
-           plotOutput("distPlot"), 
-           tableOutput("contents")
+           plotOutput("distPlot"),
+           plotOutput("distLine"),
+           tableOutput("contents"),
+           textOutput("equation"),
+           textOutput("r_squared"),
+           textOutput("coefficient"),
+           textOutput("intercept"),
+           textOutput("slope")
         )
+    )
+)
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
 
     dataInput <- reactive({
+        req(input$file1)
         df <- read.csv(input$file1$datapath,
                        header = input$header,
                        sep = input$sep,
@@ -69,34 +79,42 @@ server <- function(input, output) {
     
     #Render CSV Data Table
     output$contents <- renderTable({
-        req(input$file1)
-        tryCatch(
-            {
-                df <- read.csv(input$file1$datapath,
-                               header = input$header,
-                               sep = input$sep,
-                               quote = input$quote)
-            },
-            error = function(e) {
-                # return a safeError if a parsing error occurs
-                stop(safeError(e))
-            }
-        )
         
         if(input$disp == "head") {
-            return(head(df))
+            return(head(dataInput()))
         }
         else {
-            return(df)
+            return(dataInput())
         }
         
     })
+    
+    line <- eventReactive(input$go, {lm(dataInput()$y ~ dataInput()$x)})
     
     #Render Graph
     output$distPlot <- renderPlot({
         plot(dataInput()$x, dataInput()$y)
     })
-}
+    
+    output$distLine <- renderPlot({
+        plot(dataInput()$x, dataInput()$y)
+        abline(line())
+    })
+    
+    output$r_squared <- renderPrint({ print("R Squared", quote = FALSE)
+        summary(line())$r.squared
+    })
+    
+    output$intercept <- renderPrint({ print("Intercept", quote = FALSE)
+        summary(line())$coefficients[1]
+        })
+
+    output$slope <- renderPrint({ 
+        print("Slope", quote = F)
+        summary(line())$coefficients[2]
+    })
+    
+}  
 
 # Run the application 
 shinyApp(ui = ui, server = server)
