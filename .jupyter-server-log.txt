@@ -31,3 +31,8 @@ Websocket closed
 [I 13:23:16.912 NotebookApp] New terminal with automatic name: 2
 TermSocket.open: 2
 TermSocket.open: Opened 2
+Websocket closed
+[I 13:29:30.975 NotebookApp] 302 GET /user/villarreald-linear_model_app-gtiynawz/ (10.0.0.17) 0.570000ms
+[I 13:33:00.182 NotebookApp] New terminal with automatic name: 3
+TermSocket.open: 3
+TermSocket.open: Opened 3

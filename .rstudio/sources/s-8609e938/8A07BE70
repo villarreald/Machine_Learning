@@ -4,16 +4,16 @@
     "created" : 1626354913983.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "",
-    "hash" : "2642728240",
+    "folds" : "19|30|21|12|\n22|49|24|12|\n25|38|31|12|\n32|35|38|12|\n39|30|41|12|\n",
+    "hash" : "1022606458",
     "id" : "8A07BE70",
-    "lastKnownWriteTime" : 1626355379,
-    "last_content_update" : 1626355379865,
+    "lastKnownWriteTime" : 1626355973,
+    "last_content_update" : 1626355973134,
     "path" : "~/AppTrial2/app.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "91,6",
-        "scrollLine" : "71"
+        "cursorPosition" : "55,9",
+        "scrollLine" : "43"
     },
     "read_only" : false,
     "read_only_alternatives" : [
