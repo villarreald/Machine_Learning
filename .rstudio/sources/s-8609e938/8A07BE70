@@ -1,24 +1,24 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1626353735894.000,
+    "created" : 1626354913983.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1925601429",
-    "id" : "D2977FD1",
-    "lastKnownWriteTime" : 1626354892,
-    "last_content_update" : 1626354892062,
-    "path" : "~/Linear_Model_App/app.R",
+    "hash" : "2642728240",
+    "id" : "8A07BE70",
+    "lastKnownWriteTime" : 1626355379,
+    "last_content_update" : 1626355379865,
+    "path" : "~/AppTrial2/app.R",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "3,77",
-        "scrollLine" : "0"
+        "cursorPosition" : "91,6",
+        "scrollLine" : "71"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 1,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

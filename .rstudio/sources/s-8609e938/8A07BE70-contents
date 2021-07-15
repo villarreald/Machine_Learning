@@ -1,20 +1,22 @@
-
 library(shiny)
 
-# Define UI for application that allows input of CSV and linear modelling of data
+# Define UI for application that draws a histogram
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Linear Modelling"),
+    titlePanel("Linear Modelling of CSV Data"),
 
-    # Sidebar to choose a CSV file to be displayed 
+    # Sidebar with a slider input for number of bins, document uploader 
     sidebarLayout(
         sidebarPanel(
+            
+            #Side bar document uploader
             fileInput("file1", "Choose CSV File",
                       multiple = FALSE,
                       accept = c("text/csv",
                                  "text/comma-separated-values,text/plain",
                                  ".csv")),
+            
             # Horizontal line ----
             tags$hr(),
             
@@ -45,27 +47,26 @@ ui <- fluidPage(
                          selected = "head")
             
         ),
+        
+          #side bar histogram slider  
+            
+            sliderInput("bins",
+                        "Number of bins:",
+                        min = 1,
+                        max = 50,
+                        value = 30)
+        ),
 
         # Show a plot of the generated distribution
         mainPanel(
-           plotOutput("distPlot"),
+           plotOutput("distPlot"), 
            tableOutput("contents")
         )
     )
-)
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-    
-    dataInput <- reactive({
-        df <- read.csv(input$file1$datapath,
-                       header = input$header,
-                       sep = input$sep,
-                       quote = input$quote)
-        return(df)
-        
-    })
-    
+
     output$contents <- renderTable({
         req(input$file1)
         tryCatch(
@@ -85,16 +86,18 @@ server <- function(input, output) {
             return(head(df))
         }
         else {
-            return(df)}})
-
-    output$distPlot <- renderPlot({
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
-     })
-    
-    output$breaks <- renderText({
+            return(df)
+        }
         
-        x <- faithful[,2]
-        seq
+    })
+    
+    output$distPlot <- renderPlot({
+        # generate bins based on input$bins from ui.R
+        x    <- faithful[, 2]
+        bins <- seq(min(x), max(x), length.out = input$bins + 1)
+
+        # draw the histogram with the specified number of bins
+        hist(x, breaks = bins, col = 'darkgray', border = 'white')
     })
 }
 
