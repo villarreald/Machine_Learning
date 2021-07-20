@@ -46,23 +46,29 @@ ui <- fluidPage(
                          choices = c(Head = "head",
                                      All = "all"),
                          selected = "head"),
-            actionButton("go", "Go"),
-            
-        ),
+            actionButton("go", "Create Linear Model"),
         
+        # Horizontal line ----
+        tags$hr(),
+        
+        htmlOutput("RSquared"),
+        htmlOutput("coefficient"),
+        htmlOutput("Intercept"),
+        htmlOutput("Slope")
+),
+          
 
-        # Show a plot of the generated distribution
-        mainPanel(
-            fluidRow(
+# Show a plot of the generated distribution
+
+mainPanel(
+    
+    fluidRow(
                 splitLayout(cellWidths = c("30%", "70%"), tableOutput("contents"), plotlyOutput("distPlot")),
            plotlyOutput("distLine"),
-           htmlOutput("RSquared"),
-           htmlOutput("coefficient"),
-           htmlOutput("Intercept"),
-           htmlOutput("Slope")
         )
     )
-))
+)
+)
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
@@ -119,20 +125,6 @@ server <- function(input, output) {
         HTML(paste(str1, str2))
     })
 }
-    # output$r_squared <- renderPrint({ print("R Squared", quote = FALSE)
-    #     summary(line())$r.squared
-    # })
-    
-#     output$intercept <- renderPrint({ print("Intercept", quote = FALSE)
-#         summary(line())$coefficients[1]
-#         })
-# 
-#     output$slope <- renderPrint({ 
-#         print("Slope", quote = F)
-#         summary(line())$coefficients[2]
-#     })
-#     
-# }  
 
 # Run the application 
 shinyApp(ui = ui, server = server)
