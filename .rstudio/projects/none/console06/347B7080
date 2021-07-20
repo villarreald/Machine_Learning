@@ -18,3 +18,21 @@ IMPORTANT: You may need to close and restart your shell after running 'conda ini
 
 
 ]0;/home/jovyan/AppTrial2]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ [K]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ [K]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ [K]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~~/AppTrial2[00m$ [K[A]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial22[00m$ [K[A]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ [K]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ [K]0;jovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp: ~/AppTrial2[01;32mjovyan@jupyter-villarreald-2dlinear-5fmodel-5fapp-2dxzcvl1fp[00m:[01;34m~/AppTrial2[00m$ 
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+

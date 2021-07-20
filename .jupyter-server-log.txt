@@ -269,3 +269,244 @@ TermSocket.open: Opened 3
 [I 16:58:22.576 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 2021-07-20 15:05:10.873 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.873 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-20 15:05:10.874 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-20 15:05:10.874 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.874 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-20 15:05:10.874 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-20 15:05:10.895 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-20 15:05:10.895 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 15:05:10.916 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 15:05:10.918 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 15:05:10.920 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 15:05:10.920 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 15:05:10.923 NotebookApp] http://jupyter-villarreald-2dlinear-5fmodel-5fapp-2d3kls5t8d:8888/user/villarreald-linear_model_app-3kls5t8d/?token=...
+[I 15:05:10.923 NotebookApp]  or http://127.0.0.1:8888/user/villarreald-linear_model_app-3kls5t8d/?token=...
+[I 15:05:10.923 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:05:10.928 NotebookApp] No web browser found: could not locate runnable browser.
+[I 15:05:11.990 NotebookApp] 302 GET /user/villarreald-linear_model_app-3kls5t8d/ (10.0.0.17) 1.270000ms
+[I 15:05:17.290 NotebookApp] 302 GET /user/villarreald-linear_model_app-3kls5t8d/?token=_9-RRXhxTVeRX2vhDPmQtQ (140.254.70.225) 0.930000ms
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 15:06:00.036 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:00.040 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:10.554 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:10.558 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:14.578 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:14.608 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:54.237 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:54.240 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:57.746 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:06:57.751 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[E 15:11:22.812 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "If-None-Match": "W/\"66c5f3ccea9c10feccb605d3010354a4696e9a2f\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "178de78699fbe9328a1a9478276aac91",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:11:22.813 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 113.710000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[E 15:12:05.740 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "9ae7d210c4b59689724e1d02594d564c",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:12:05.740 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 53.830000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[E 15:12:08.826 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "768170d84e33dfd852beb7f2deddf57e",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:12:08.826 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 41.630000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[E 15:15:32.747 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "6b46613bc038a2d9a8feb3d7fac628e3",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:15:32.747 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 57.180000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[E 15:15:42.618 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "536367848066873c0b86191514db8764",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:15:42.618 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 68.770000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[E 15:16:23.975 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626793517|30:username-hub-gke2-mybinder-org|44:N2Q3NWYxNzg1ODRmNDdlY2JhZWQxZGU1NzE3OWEyMGE=|8d41f9604107b00078209120de7c7f0241e07a89cf0f031d18889981c42f0ab0\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.0.20",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "6e048af5b8f5c715f0bf3813c93b01c5",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:16:23.975 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 67.950000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[I 15:17:19.935 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:17:19.941 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:18:09.770 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:18:09.775 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:19:38.540 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:19:38.544 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:20:11.195 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:20:11.217 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:20:51.062 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:20:51.068 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:26:34.001 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:26:34.006 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:27:01.956 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:27:01.961 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:31:32.933 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/1a9d2bc8/terminal/347B7080/
+[I 15:31:32.946 NotebookApp] Websocket connection established to ws://localhost:36185/p/1a9d2bc8/terminal/347B7080/
+[I 15:40:04.953 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:40:04.957 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:41:11.470 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:41:11.474 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[E 15:42:11.205 NotebookApp] {
+      "Cookie": "port-token=a7e91bb3755d; username-hub-gke2-mybinder-org=\"2|1:0|10:1626795042|30:username-hub-gke2-mybinder-org|44:NmMzYWFkZTljOTdjNDhjYWE5YzgwMjlhMjZiOGQ1NTI=|10364ab00b933ed23d07e2294f4ce3f425436a11765416cf2446ceafd91780e6\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "If-None-Match": "W/\"d6a7e17ec616bbc60f43cfc4b47fa20441b083f1\"",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/",
+      "Sec-Fetch-Dest": "iframe",
+      "Sec-Fetch-User": "?1",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "same-origin",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "140.254.70.225,::ffff:10.0.1.8",
+      "X-Real-Ip": "140.254.70.225",
+      "X-Request-Id": "b904f89c2d02f6c79ec968a798618327",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:42:11.205 NotebookApp] 500 GET /user/villarreald-linear_model_app-3kls5t8d/rstudio/p/8cb7dd0a/ (140.254.70.225) 38.290000ms referer=https://hub.gke2.mybinder.org/user/villarreald-linear_model_app-3kls5t8d/rstudio/
+[I 15:42:35.669 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:42:35.672 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:44:02.432 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:44:02.449 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:44:40.051 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:44:40.055 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:45:28.294 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
