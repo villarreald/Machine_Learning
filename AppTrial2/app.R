@@ -3,10 +3,10 @@ library(plotly)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-
+    
     # Application title
     titlePanel("Linear Modeling of CSV Data"),
-
+    
     # Sidebar with a slider input for number of bins, document uploader 
     sidebarLayout(
         sidebarPanel(
@@ -47,32 +47,32 @@ ui <- fluidPage(
                                      All = "all"),
                          selected = "head"),
             actionButton("go", "Create Linear Model"),
+            
+            # Horizontal line ----
+            tags$hr(),
+            
+            htmlOutput("RSquared"),
+            htmlOutput("coefficient"),
+            htmlOutput("Intercept"),
+            htmlOutput("Slope")
+        ),
         
-        # Horizontal line ----
-        tags$hr(),
         
-        htmlOutput("RSquared"),
-        htmlOutput("coefficient"),
-        htmlOutput("Intercept"),
-        htmlOutput("Slope")
-),
-          
-
-# Show a plot of the generated distribution
-
-mainPanel(
-    
-    fluidRow(
+        # Show a plot of the generated distribution
+        
+        mainPanel(
+            
+            fluidRow(
                 splitLayout(cellWidths = c("30%", "70%"), tableOutput("contents"), plotlyOutput("distPlot")),
-           plotlyOutput("distLine"),
+                plotlyOutput("distLine"),
+            )
         )
     )
-)
 )
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-
+    
     dataInput <- reactive({
         req(input$file1)
         df <- read.csv(input$file1$datapath,
@@ -99,12 +99,14 @@ server <- function(input, output) {
     
     #Render Graph
     output$distPlot <- renderPlotly({
-        plot_ly(dataInput(), x = ~x, y = ~y, type = 'scatter', mode = 'markers')
+        plot_ly(dataInput(), x = ~x, y = ~y, type = 'scatter', mode = 'markers')%>%
+        layout(title = "Scatter Plot")
     })
     
     output$distLine <- renderPlotly({
         plot_ly(dataInput(), x = ~x, y = ~y, type = 'scatter', mode = 'markers')%>%
-        add_trace(dataInput(), x = ~x, y = fitted(line()), mode = "lines", showlegend = F)
+            layout(title = "Linear Model")%>%
+            add_trace(dataInput(), x = ~x, y = fitted(line()), mode = "lines", showlegend = F)
     })
     
     output$RSquared <- renderUI({

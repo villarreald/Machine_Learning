@@ -543,3 +543,15 @@ Websocket closed
 [I 16:19:33.897 NotebookApp] New terminal with automatic name: 4
 TermSocket.open: 4
 TermSocket.open: Opened 4
+[I 16:20:52.313 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:20:52.318 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:24:47.054 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:24:47.058 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:26:34.020 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:26:34.041 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:27:01.691 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:27:01.696 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+Websocket closed
+[I 16:27:24.975 NotebookApp] New terminal with automatic name: 5
+TermSocket.open: 5
+TermSocket.open: Opened 5
