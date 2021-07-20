@@ -72,3 +72,8 @@
 1626795841015:runApp()
 1626795841884:runApp('AppTrial2')
 1626795879411:runApp('AppTrial2')
+1626796296746:runApp('AppTrial2')
+1626796808509:runApp('AppTrial2')
+1626796828224:runApp('AppTrial2')
+1626796847043:runApp('AppTrial2')
+1626796886218:shiny::runApp()

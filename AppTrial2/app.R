@@ -56,10 +56,10 @@ ui <- fluidPage(
             fluidRow(
                 splitLayout(cellWidths = c("30%", "70%"), tableOutput("contents"), plotlyOutput("distPlot")),
            plotlyOutput("distLine"),
-           textOutput("r_squared"),
-           textOutput("coefficient"),
-           textOutput("intercept"),
-           textOutput("slope")
+           htmlOutput("RSquared"),
+           htmlOutput("coefficient"),
+           htmlOutput("Intercept"),
+           htmlOutput("Slope")
         )
     )
 ))
@@ -101,20 +101,38 @@ server <- function(input, output) {
         add_trace(dataInput(), x = ~x, y = fitted(line()), mode = "lines", showlegend = F)
     })
     
-    output$r_squared <- renderPrint({ print("R Squared", quote = FALSE)
-        summary(line())$r.squared
+    output$RSquared <- renderUI({
+        str1 <- paste("R", tags$sup(2)," - ", sep = "")
+        str2 <- paste(format(round(summary(line())$r.squared, 3)))
+        HTML(paste(str1, str2))
     })
     
-    output$intercept <- renderPrint({ print("Intercept", quote = FALSE)
-        summary(line())$coefficients[1]
-        })
-
-    output$slope <- renderPrint({ 
-        print("Slope", quote = F)
-        summary(line())$coefficients[2]
+    output$Slope <- renderUI({
+        str1 <- paste("Slope - ")
+        str2 <- paste(format(round(summary(line())$coefficients[2], 3)))
+        HTML(paste(str1, str2))
     })
     
-}  
+    output$Intercept <- renderUI({
+        str1 <- paste("Intercept - ")
+        str2 <- paste(format(round(summary(line())$coefficients[1], 3)))
+        HTML(paste(str1, str2))
+    })
+}
+    # output$r_squared <- renderPrint({ print("R Squared", quote = FALSE)
+    #     summary(line())$r.squared
+    # })
+    
+#     output$intercept <- renderPrint({ print("Intercept", quote = FALSE)
+#         summary(line())$coefficients[1]
+#         })
+# 
+#     output$slope <- renderPrint({ 
+#         print("Slope", quote = F)
+#         summary(line())$coefficients[2]
+#     })
+#     
+# }  
 
 # Run the application 
 shinyApp(ui = ui, server = server)

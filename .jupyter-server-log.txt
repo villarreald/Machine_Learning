@@ -510,3 +510,22 @@ TermSocket.open: Opened 1
 [I 15:45:28.294 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+Websocket closed
+[I 15:51:37.256 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 15:51:37.260 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 16:00:47.527 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/8cb7dd0a/websocket/
+[I 16:00:47.531 NotebookApp] Websocket connection established to ws://localhost:36185/p/8cb7dd0a/websocket/
+/usr/lib/rstudio-server/bin/rsession: Relink `/srv/conda/envs/notebook/lib/R/lib/../.././libgfortran.so.4' with `/lib/x86_64-linux-gnu/librt.so.1' for IFUNC symbol `clock_gettime'
+[I 16:01:28.963 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:01:28.967 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:02:31.769 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:02:31.775 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:03:00.800 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:03:00.804 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:03:44.330 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:03:44.335 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:04:11.993 NotebookApp] Trying to establish websocket connection to ws://localhost:36185/p/02479c96/websocket/
+[I 16:04:11.998 NotebookApp] Websocket connection established to ws://localhost:36185/p/02479c96/websocket/
+[I 16:04:37.208 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
