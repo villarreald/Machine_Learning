@@ -13,9 +13,9 @@ dependencies:
   - r-shiny
   - pip
   - r-plotly
-  - scikitlearn
   - pip:
     - pandas
     - matplotlib
     - numpy
     - scipy
+    - scikitlearn
