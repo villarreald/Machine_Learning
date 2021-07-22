@@ -1,4 +1,5 @@
-# conda_binder
-Basic Conda based Binder
+# Machine_Learning
+Git repo completed for a Data Science course
+Based off: [LINK]
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/villarreald/linear_model_app.git/HEAD)
+[BUTTON]
