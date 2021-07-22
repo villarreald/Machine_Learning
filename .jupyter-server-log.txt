@@ -595,3 +595,54 @@ TermSocket.open: Opened 5
 [I 16:18:37.946 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+Websocket closed
+[W 16:19:50.975 NotebookApp] delete /AppTrial2
+[E 16:19:50.976 NotebookApp] Uncaught exception DELETE /user/villarreald-machine_learning-8ekic4yl/api/contents/AppTrial2 (76.232.32.7)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='DELETE', uri='/user/villarreald-machine_learning-8ekic4yl/api/contents/AppTrial2', version='HTTP/1.1', remote_ip='76.232.32.7')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/srv/conda/envs/notebook/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/home/jovyan/AppTrial2' -> b'/home/jovyan/.local/share/Trash/files/AppTrial2'
+[W 16:19:50.985 NotebookApp] Unhandled error
+[E 16:19:50.986 NotebookApp] {
+      "Content-Length": "0",
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1626969799|30:username-hub-gke2-mybinder-org|44:MGE1YTU1MGFjYjBlNGUxZjlkNDE5MWY2ZmY2N2EwYTg=|1b7be52ea97d87d6dc11d25a3809959428890c463a9a32fe49755c0b98b2e030\"; _xsrf=2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842; csrf-token=27b47e7a-8fa4-4e73-8e21-149eb249a358",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/villarreald-machine_learning-8ekic4yl/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|304d331c|5dec9c1f9b3f146cfaae1d0b7cb9ed5d|1624503842",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "76.232.32.7,::ffff:10.0.1.8",
+      "X-Real-Ip": "76.232.32.7",
+      "X-Request-Id": "c2af1f7d26eddb6e62656fdb234ac343",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 16:19:50.986 NotebookApp] 500 DELETE /user/villarreald-machine_learning-8ekic4yl/api/contents/AppTrial2 (76.232.32.7) 11.350000ms referer=https://hub.gke2.mybinder.org/user/villarreald-machine_learning-8ekic4yl/tree
+[I 16:19:55.334 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
